@@ -1,0 +1,82 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo */
+body {
+   /* font-family: Oswald, sans-serif;*/
+    text-align: center;
+    background-color: #FFFAFA;
+    background-image: url("img/imagem.jpg");
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a tela */
+    background-repeat: no-repeat; /* Impede que a imagem seja repetida */
+    background-position: center; /* Centraliza a imagem */ 
+}
+
+/*Estilizando a cabeçalho*/
+header{
+    font-family: Oswald, sans-serif;
+    background-color: #00008B;
+    color: aliceblue;
+    padding: 15px 0;
+}
+header h2{
+   font-family: Oswald, sans-serif;
+   color: aliceblue;
+}
+/*estilizando navegação*/
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    color: #40E0D0;
+    text-decoration: none; /*tira o sulbinhado do link*/
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/*Seções*/
+ section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #E6E6FA;
+    border-radius: 5px;
+    text-align: left;
+ }
+ h2 {
+    color: #333;
+    margin-bottom: 10px;
+ }
+ /*Link de voltar ao topo*/
+ .voltar {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+ }
+ .voltar:hover {
+    text-decoration: underline;
+ }
+ #sobre {
+    font-family:Spline Sans, sans-serif;
+    font-size: 15px;
+ }
+ #hobbies {
+    font-family:Spline Sans, sans-serif;
+    font-size: 15px;
+
+ }
+ #contato {
+    font-family:Spline Sans, sans-serif;
+    font-size: 15px;
+ }
