@@ -3,7 +3,7 @@
 Este é um site simples feito em **HTML e CSS**, desenvolvido como parte do meu aprendizado em programação front-end. A proposta é apresentar meu perfil pessoal de forma organizada, estilizada e navegável — como um mini portfólio online.
 
 <p align="center">
-  <img src="img/CapturaTela.png" alt="Game" width="500" height="300"/>
+  <img src="img/CapturaTela.png" alt="Game" width="500" height="100"/>
 </p>
 
 ## ✨ Funcionalidades
