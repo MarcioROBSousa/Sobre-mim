@@ -1,8 +1,8 @@
 /* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 /* Estilizando o corpo */
@@ -23,6 +23,10 @@ header{
     color: aliceblue;
     padding: 15px 0;
 }
+header h1 {
+   font-size: 32px;
+   letter-spacing: 1px;
+}
 header h2{
    font-family: Oswald, sans-serif;
    color: aliceblue;
@@ -37,9 +41,9 @@ nav ul li {
     margin: 0 15px;
 }
 nav a {
-    color: #40E0D0;
-    text-decoration: none; /*tira o sulbinhado do link*/
+    text-decoration: none; /* tira o sublinhado do link */
     font-size: 18px;
+    color: #ffffff;
 }
 nav a:hover {
     text-decoration: underline;
@@ -52,6 +56,7 @@ nav a:hover {
     background-color: #E6E6FA;
     border-radius: 5px;
     text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  }
  h2 {
     color: #333;
@@ -63,9 +68,11 @@ nav a:hover {
     margin-top: 15px;
     color: #007bff;
     text-decoration: none;
+    transition: 0.3s ease;
  }
  .voltar:hover {
     text-decoration: underline;
+    color: #0056b3;
  }
  #sobre {
     font-family:Spline Sans, sans-serif;
@@ -80,3 +87,13 @@ nav a:hover {
     font-family:Spline Sans, sans-serif;
     font-size: 15px;
  }
+ @media (max-width: 600px) {
+   nav ul li {
+       display: block;
+       margin: 10px 0;
+   }
+
+   section {
+       margin: 20px 10px;
+   }
+}
