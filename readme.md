@@ -11,7 +11,6 @@ Este é um site simples feito em **HTML e CSS**, desenvolvido como parte do meu 
 - 📌 Seções organizadas: Sobre mim, Hobbies e Contato
 - 🎨 Design com imagem de fundo, cores suaves e tipografia moderna
 - 🔗 Links de navegação entre seções
-- 📱 Responsivo (em breve!)
 
 ## 💻 Tecnologias usadas
 
